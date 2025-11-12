@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <meta http-equiv="refresh" content="0; url=https://sundaeswap.org">
+  <link rel="canonical" href="https://sundaeswap.org">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Preserve path and query when redirecting
+    (function() {
+      var dest = "https://sundaeswap.org".replace(/\/$/, ""); // no trailing slash
+      var path = window.location.pathname + window.location.search + window.location.hash;
+      // For user/org pages, path usually starts with '/'; keep it.
+      window.location.replace(dest + path);
+    })();
+  </script>
+  <style>
+    html,body {height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .wrap {display:flex;align-items:center;justify-content:center;height:100%;text-align:center;padding:2rem}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p>Redirecting to <a href="https://sundaeswap.org">https://sundaeswap.org</a>…</p>
+  </div>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://sundaeswap.org">
+  </noscript>
+</body>
+</html>
